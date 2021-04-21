@@ -1,4 +1,5 @@
 # Faculty-Evaluator--IUB
+#no need to make window wider just longest
 import pyautogui
 print(pyautogui.position())
 
@@ -14,7 +15,7 @@ pyautogui.click(base_x, Q1_option_3) #goes to 1st's 3rd option
 #rest of the Questions
 
 count = 0
-#ok till 10
+#set '<10' if wana add spice
 while count < 14:
     count += 1
     pyautogui.move(0, -71) # goes to q2
@@ -22,5 +23,5 @@ while count < 14:
     pyautogui.move(0, 114)
     pyautogui.click()
 
-pyautogui.moveTo(x =918, y = 820)
+pyautogui.moveTo(x =918, y = 820) #if spice added comment this out
 #no need to make wider just long
