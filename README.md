@@ -23,3 +23,4 @@ while count < 14:
     pyautogui.click()
 
 pyautogui.moveTo(x =918, y = 820)
+#no need to make wider just long
